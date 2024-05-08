@@ -107,6 +107,19 @@ section{
     transition: 0.7s ease;
     margin-bottom: 15px;
 }
+.main-btnm{
+    color: #ffffff;
+    background-color: #ffb700;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 900;
+    display: inline-block;
+    padding: 1em 2em;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transition: 0.7s ease;
+    margin-bottom: 15px;
+}
 
 
 .main-btn:hover{
