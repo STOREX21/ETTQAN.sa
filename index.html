@@ -1,1 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="ETTQAN LOGO.jpg" type="x-icon" />
+    <title>ETTQAN</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">ETTQAN</a>
+        <nav class="navigation">
+            <a href="#AboutMe">من نحن</a>
+            <a href="#قائمه الشرف<"قائمه الشرف</a>
+            <a href="#New">جديدنا</a>
+            <a href="#Contact">الحلقات</a>
+        </nav>
+        <button class="hamburger">
+            <div class="bar"></div>
+
+        </button>
+
+    </header>
+
+    <nav class="mobile-nav">
+        <a href="#AboutMe" class="mobile-navB">من نحن</a>
+        <a href="#قائمه الشرف" class="mobile-navB">قائمه الشرف</a>
+        <a href="#New">جديدنا</a>
+        <a href="#Contact" class="mobile-navB">الحلقات</a>
+    </nav>
+
+
+    <section class="main" id="Sop">
+        <div>
+            <h2>Welcome to <br><span>ETTQAN Website</span></h2>
+            <a href="#AboutMe" class="main-btn">Who am i ? </a>
+            <div class="social-icons">
+                <a target="_blank" href="https://www.tiktok.com/@sop.dev" class="Icon"><i
+                        class="fa-brands fa-tiktok"></i></a>
+                <a target="_blank" href="https://www.instagram.com/sop.dev/" class="Icon"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://discord.gg/7zcaPjtpJb" class="Icon"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a target="_blank" href="www.youtube.com/@user-oh8bh2uw4p" class="Icon"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <br>
+                <img src="ETTQAN LOGO.jpg">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="AboutMe" id="AboutMe">
+        <h2 class="title">من نحن</h2>
+
+        <p class="aboutMe-p">
+
+        </p>
+
+    </section>
+
+
+    <section class="Games" id="قائمه الشرف">
+
+
+        <h2 class="title">قائمه الشرف</h2>
+
+        <div class="content">
+            <div class="GameCard">
+                <div class="gameImage">
+                    <img src="ETTQAN LOGO.jpg">
+                </div>
+                <div class="gameInfo" style="text-align: left;">
+                    <p class="game-category">حاز على درجه الشرف</p><br>
+                    <strong class="gameTitle">
+                        <span>عزام عباس مصطفي</span>
+                    </strong>
+                </div>
+    </section>
+    <section class="mm" id="New">
+        <h2 class="tt">جديدنا</h2>
+
+        <div class="content">
+            <div class="GameCard">
+                <div class="gameImage">
+                    <img src="ETTQAN LOGO.jpg">
+                </div>
+                <div class="gameInfo" style="text-align: left;">
+                    <p class="game-category">يعلن مركز الإتقان عن بدءدورة صيفية للمراجعات والحفظ الجديد في منطقه مكه
+                        المكرمة وتحديداً في منطقه العزيزية الجنوبيه للمزيد من التفاصيل يرجي التواصل مع
+                        الإداره:(الشيخ:سليمان دقاشي ..) عبرالواتساب </p><br>
+                    <strong class="gameTitle">
+                        <span>
+                            <alt=""><a target="_blank" href="https://api.whatsapp.com/send/?phone=966561214066&text&type=phone_number&app_absent=0" class="Icon"><img src="واتساب.png" alt=""><i
+                                        class="fa-brands fa-whatsapp"></i></a>
+                        </span>
+                    </strong>
+                </div>
+    </section>
+    <section class="Contact" id="Contact">
+
+        <h2 class="title"> الحلقات </h2>
+        <br><br>
+        <a href="ERROR.html" class="ss">انضم إلى الحلقة</a>
+        <h2 class="titlel">كن مصحفاً يمشي .... وإسلاماً يرى</h2>
+        <br><br><br><br><br><br><br><br>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title">Copyrights @ <span>ETTQAN</span></p>
+        <div class="social-icons">
+            <a target="_blank" href="https://www.tiktok.com/@sop.dev" class="Icon"><i
+                    class="fa-brands fa-tiktok"></i></a>
+            <a target="_blank" href="https://www.instagram.com/sop.dev/" class="Icon"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" href="https://discord.gg/7zcaPjtpJb" class="Icon"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a target="_blank" href="www.youtube.com/@user-oh8bh2uw4p" class="Icon"><i
+                    class="fa-brands fa-youtube"></i></a>
+        </div>
+
+    </footer>
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script>
+
+        const menu_btn = document.querySelector('.hamburger');
+        const mobile_menu = document.querySelector('.mobile-nav');
+
+
+
+        menu_btn.addEventListener('click', function () {
+            menu_btn.classList.toggle('is-active')
+            mobile_menu.classList.toggle('is-active')
+        })
+
+        document.querySelectorAll('.mobile-navB').forEach(item => {
+            item.addEventListener('click', event => {
+                menu_btn.classList.toggle('is-active')
+                mobile_menu.classList.toggle('is-active')
+            })
+        })
+
+    </script>
+</body>
+
+</html>
