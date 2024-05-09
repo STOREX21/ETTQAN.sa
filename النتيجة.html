@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="main.css">
-    <link rel="icon" href="img/ETTQAN LOGO.jpg" type="image/x-icon"/>
+    <link rel="icon" href="ETTQAN LOGO.jpg" type="x-icon"/>
     <title>النتيجة</title>
 </head>
 <body>
@@ -20,7 +20,7 @@
             <div class="bar"></div>
 
         </button>
-
++
     </header>
 
     <nav class="mobile-nav">
@@ -45,8 +45,6 @@ function generateCode() {
     resultDisplay.textContent = "نتيجه إمتحانك هي : 19-20";
   } else if (number === "2447") {
     resultDisplay.textContent = "Error راجع الإدارة";
-  } else if (number === "2448") {
-    resultDisplay.textContent = "لم تنزل درجاتك حتي الأن يرجى الإنتظار لوقت لاحق";
   } else {
     resultDisplay.textContent = "Error";
   }
@@ -56,10 +54,12 @@ function generateCode() {
 <body>
 <label for="number">رقم الجلوس</label>
 <input type="number" id="number">
-<button onclick="generateCode()">كشف</button>
+<button onclick="generateCode()">احسب</button>
 <p id="result"></p>
 <br><br>
-<a href="كشف رقم الجلوس.html" class="main-btnm"> البحث عن رقم الجلوس بواسطه الإسم </a>
+<a href="الشهادة.html" class="main-btnm">إستخراج الشهاده</a>
+<br>
+<a href="كشف - رقم - الجلوس.html" class="main-btnm">البحث عن رقم الجلوس</a>
 </body>
 </html>
 
