@@ -120,6 +120,19 @@ section{
     transition: 0.7s ease;
     margin-bottom: 15px;
 }
+.main-btnmn{
+    color: #ffffff;
+    background-color: #ffb700;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 900;
+    display: inline-block;
+    padding: 1em 2em;
+    letter-spacing: 3px;
+    border-radius: 4px;
+    transition: 0.7s ease;
+    margin-bottom: 15px;
+}
 
 
 .main-btn:hover{
