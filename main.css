@@ -255,6 +255,11 @@ section{
     padding: 1em;
     text-align: left;
 }
+.gameInfoo{
+    padding: 1em;
+    text-align: left;
+    background-image: url(img/r.png);
+}
 
 .game-category{
     font-size: 0.8em;
